@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+<body>
+  <header class="header">
+    <nav class="navbar">
+      <h3 class="brand-logo">Where in the world?</h3>
+      <div class="mode-switch">
+        <i class="fa fa-moon-o" aria-hidden="true"></i>
+        <i class="fa fa-lightbulb-o" aria-hidden="true"></i>
+
+        <h4 class="mode-switch-text">Dark Mode</h4>
+      </div>
+    </nav>
+  </header>
+  <main class="container">
+    <div class="input-fields">
+      <input type="text" class="search" id="search">
+      <select name="" id="select" onChange="update()" class="drop-down-menu">
+        <option value="filter" class="filter">Filter by Region</option>
+        <option value="africa" class="africa">Africa</option>
+        <option value="americas" class="america">America</option>
+        <option value="asia" class="asia">Asia</option>
+        <option value="europe" class="europe">Europe</option>
+        <option value="oceania" class="oceania">Oceania</option>
+      </select>
+    </div>
+    <div class="countries-container">
+      <!-- <div class="country">
+        <img src="" alt="">
+        <h3 class="name">Albania</h3>
+        <h4 class="population">Population: 1003756</h4>
+        <h4 class="region">Region: Europe</h4>
+        <h4 class="capital">Capital: Tirana</h4>
+      </div> -->
+      </div>
+      <div class="regions-container">
+        
+      </div>
+    </div>
+
+    <button class="go">Go to next page</button>
+  </main>
+  
+
+  <script src="app.js"></script>
+</body>
+</html>
